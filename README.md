@@ -1,4 +1,3 @@
-
 # GPS Speedometer
 Firmware for an AVR based speedometer that uses serial
 ## Installation
@@ -11,8 +10,9 @@ Can be used to pull speed data from a NEO-6M GPS module and drive a stepper moto
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request
+
 ## History
-v1.0 Initial release
+v1.0 Initial Release
 ## Credits
 Taylor Daniska
 taylordaniska@gmail.com
