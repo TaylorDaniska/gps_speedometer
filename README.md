@@ -1,11 +1,10 @@
-<snippet>
-  <content><![CDATA[
-# ${1:Project Name}
-TODO: Write a project description
+
+# GPS Speedometer
+Firmware for an AVR based speedometer that uses serial
 ## Installation
-TODO: Describe the installation process
+Arduino or AVR Dude can be used to load the code onto the AVR.
 ## Usage
-TODO: Write usage instructions
+Can be used to pull speed data from a NEO-6M GPS module and drive a stepper motor to display speed. Can be used to make a speedometer for an older car that does not have a speedometer.
 ## Contributing
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
@@ -13,11 +12,7 @@ TODO: Write usage instructions
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 ## History
-TODO: Write history
+v1.0 Initial release
 ## Credits
-TODO: Write credits
-## License
-TODO: Write license
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
+Taylor Daniska
+taylordaniska@gmail.com
