@@ -1,9 +1,12 @@
 # GPS Speedometer
 Firmware for an AVR based speedometer that uses serial
+
 ## Installation
 Arduino or AVR Dude can be used to load the code onto the AVR.
+
 ## Usage
 Can be used to pull speed data from a NEO-6M GPS module and drive a stepper motor to display speed. Can be used to make a speedometer for an older car that does not have a speedometer.
+
 ## Contributing
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
@@ -13,6 +16,7 @@ Can be used to pull speed data from a NEO-6M GPS module and drive a stepper moto
 
 ## History
 v1.0 Initial Release
+
 ## Credits
 Taylor Daniska
 taylordaniska@gmail.com
