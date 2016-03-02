@@ -40,43 +40,43 @@ void loop()
   if (startup == true) {
     buttonState = digitalRead(buttonPin);
     if (buttonState == HIGH) {
-  for (int i=0; i <= 30; i++) {
-  myStepper.step(-1);
-  delay(10);
-  }
-  }
+      for (int i=0; i <= 30; i++) {
+      myStepper.step(-1);
+      delay(10);
+      1}
+    }
   Serial.print("Startup");
-  for (int i=0; i <= 68; i++) {
-  Serial.print("for");
-  myStepper.step(1);
-  delay(10);
-  buttonState = digitalRead(buttonPin);
-  if (buttonState == HIGH) {     
-  startup = false;
-  for (int i=0; i <= 44; i++) {
-  Serial.print("return");
-  myStepper.step(-1);
-  delay(10);
-  }
-  break;  
-  } 
+  for (int i=0; i <= 68; i++) { 
+    Serial.print("for");
+    myStepper.step(1);
+    delay(10);
+    buttonState = digitalRead(buttonPin);
+    if (buttonState == HIGH) {     
+      startup = false;
+      for (int i=0; i <= 44; i++) {
+      Serial.print("return");
+      myStepper.step(-1);
+      delay(10);
+      }
+      break;  
+    } 
   }
   if(startup == true) {
-  for (int i=0; i <= 68; i++) {
-  Serial.print("for");
-  myStepper.step(-1);
-  delay(10);
-  buttonState = digitalRead(buttonPin);
-  if (buttonState == HIGH) {     
-  startup = false;
-  for (int i=0; i <= 53; i++) {
-  Serial.print("return");
-  myStepper.step(-1);
-  delay(10);
-  }
-  break;  
-  } 
-  }
+    for (int i=0; i <= 68; i++) {
+      Serial.print("for");
+      myStepper.step(-1);
+      delay(10);
+      buttonState = digitalRead(buttonPin);
+      if (buttonState == HIGH) {     
+        startup = false;
+        for (int i=0; i <= 53; i++) {
+          Serial.print("return");
+          myStepper.step(-1);
+          delay(10);
+        }
+        break;  
+      } 
+    }
   }
   startup = false;
   }
@@ -85,12 +85,12 @@ void loop()
   delay(10);
   stepValue = map(speedValue, 0, 80, 0, 63);
   if (stepValue > currentStep) {
-  myStepper.step(1);
-  currentStep = currentStep + 1;
+    myStepper.step(1);
+    currentStep = currentStep + 1;
   }
   else if (stepValue < currentStep) {
-  myStepper.step(-1);
-  currentStep = currentStep - 1;
+    myStepper.step(-1);
+    currentStep = currentStep - 1;
   }
 }
 
