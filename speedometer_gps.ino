@@ -1,3 +1,8 @@
+/*
+GPS Speedometer Firmware
+Taylor Daniska
+*/
+
 #include <SoftwareSerial.h>
 #include <Stepper.h>
 #include <TinyGPS.h>
