@@ -2,7 +2,7 @@
 Firmware for an AVR based speedometer that uses serial
 
 ## Installation
-Arduino or AVR Dude can be used to load the code onto the AVR.
+Arduino or AVR Dude can be used to load the code onto the AVR. ATMega 8 was used for development.
 
 ## Usage
 Can be used to pull speed data from a NEO-6M GPS module and drive a stepper motor to display speed. Can be used to make a speedometer for an older car that does not have a speedometer.
